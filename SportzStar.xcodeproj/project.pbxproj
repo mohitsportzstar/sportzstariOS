@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683E518F26947FD800C7FCB6 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683E518E26947FD800C7FCB6 /* SignUpVC.swift */; };
+		6855E0B22692B6B2003F65B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E0B12692B6B2003F65B5 /* AppDelegate.swift */; };
+		6855E0B42692B6B2003F65B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E0B32692B6B2003F65B5 /* SceneDelegate.swift */; };
+		6855E0B62692B6B2003F65B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E0B52692B6B2003F65B5 /* ViewController.swift */; };
+		6855E0B92692B6B2003F65B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6855E0B72692B6B2003F65B5 /* Main.storyboard */; };
+		6855E0BC2692B6B2003F65B5 /* SportzStar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6855E0BA2692B6B2003F65B5 /* SportzStar.xcdatamodeld */; };
+		6855E0BE2692B6B5003F65B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6855E0BD2692B6B5003F65B5 /* Assets.xcassets */; };
+		6855E0C12692B6B5003F65B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6855E0BF2692B6B5003F65B5 /* LaunchScreen.storyboard */; };
+		6855E0CC2692B6B5003F65B5 /* SportzStarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E0CB2692B6B5003F65B5 /* SportzStarTests.swift */; };
+		6855E0D72692B6B5003F65B5 /* SportzStarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E0D62692B6B5003F65B5 /* SportzStarUITests.swift */; };
+		6855E21126933BCB003F65B5 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E21026933BCB003F65B5 /* Pages.swift */; };
+		6855E21926933CB6003F65B5 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E21826933CB6003F65B5 /* Page1.swift */; };
+		6855E21E26933CC3003F65B5 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E21D26933CC3003F65B5 /* Page2.swift */; };
+		6855E22326933CD1003F65B5 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E22226933CD1003F65B5 /* Page3.swift */; };
+		6855E22A2693421B003F65B5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E2292693421B003F65B5 /* LoginVC.swift */; };
+		6855E23126936A87003F65B5 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855E23026936A87003F65B5 /* ResetPasswordVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6855E0C82692B6B5003F65B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6855E0A62692B6B2003F65B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6855E0AD2692B6B2003F65B5;
+			remoteInfo = SportzStar;
+		};
+		6855E0D32692B6B5003F65B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6855E0A62692B6B2003F65B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6855E0AD2692B6B2003F65B5;
+			remoteInfo = SportzStar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		683E518E26947FD800C7FCB6 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		6855E0AE2692B6B2003F65B5 /* SportzStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportzStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855E0B12692B6B2003F65B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		6855E0B32692B6B2003F65B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6855E0B52692B6B2003F65B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6855E0B82692B6B2003F65B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6855E0BB2692B6B2003F65B5 /* SportzStar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportzStar.xcdatamodel; sourceTree = "<group>"; };
+		6855E0BD2692B6B5003F65B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6855E0C02692B6B5003F65B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6855E0C22692B6B5003F65B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6855E0C72692B6B5003F65B5 /* SportzStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportzStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855E0CB2692B6B5003F65B5 /* SportzStarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportzStarTests.swift; sourceTree = "<group>"; };
+		6855E0CD2692B6B5003F65B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6855E0D22692B6B5003F65B5 /* SportzStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportzStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855E0D62692B6B5003F65B5 /* SportzStarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportzStarUITests.swift; sourceTree = "<group>"; };
+		6855E0D82692B6B5003F65B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6855E21026933BCB003F65B5 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		6855E21826933CB6003F65B5 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		6855E21D26933CC3003F65B5 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		6855E22226933CD1003F65B5 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		6855E2292693421B003F65B5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6855E23026936A87003F65B5 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6855E0AB2692B6B2003F65B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6855E0C42692B6B5003F65B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6855E0CF2692B6B5003F65B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683E518C26947FBC00C7FCB6 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				683E518D26947FC400C7FCB6 /* View */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		683E518D26947FC400C7FCB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				683E518E26947FD800C7FCB6 /* SignUpVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6855E0A52692B6B2003F65B5 = {
+			isa = PBXGroup;
+			children = (
+				6855E0B02692B6B2003F65B5 /* SportzStar */,
+				6855E0CA2692B6B5003F65B5 /* SportzStarTests */,
+				6855E0D52692B6B5003F65B5 /* SportzStarUITests */,
+				6855E0AF2692B6B2003F65B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6855E0AF2692B6B2003F65B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6855E0AE2692B6B2003F65B5 /* SportzStar.app */,
+				6855E0C72692B6B5003F65B5 /* SportzStarTests.xctest */,
+				6855E0D22692B6B5003F65B5 /* SportzStarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6855E0B02692B6B2003F65B5 /* SportzStar */ = {
+			isa = PBXGroup;
+			children = (
+				6855E1FB2693381C003F65B5 /* CustomViews */,
+				6855E1EE2693381B003F65B5 /* Delegates */,
+				6855E1F22693381C003F65B5 /* ExternalClasses */,
+				6855E1F32693381C003F65B5 /* Resources */,
+				6855E1EC2693381B003F65B5 /* UtilityClasses */,
+				6855E1F42693381C003F65B5 /* ViewControllers */,
+				6855E1ED2693381B003F65B5 /* WebServiceHelper */,
+				6855E1F12693381B003F65B5 /* XIB */,
+				6855E0B52692B6B2003F65B5 /* ViewController.swift */,
+				6855E0B72692B6B2003F65B5 /* Main.storyboard */,
+				6855E0BD2692B6B5003F65B5 /* Assets.xcassets */,
+				6855E0BF2692B6B5003F65B5 /* LaunchScreen.storyboard */,
+				6855E0C22692B6B5003F65B5 /* Info.plist */,
+				6855E0BA2692B6B2003F65B5 /* SportzStar.xcdatamodeld */,
+			);
+			path = SportzStar;
+			sourceTree = "<group>";
+		};
+		6855E0CA2692B6B5003F65B5 /* SportzStarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6855E0CB2692B6B5003F65B5 /* SportzStarTests.swift */,
+				6855E0CD2692B6B5003F65B5 /* Info.plist */,
+			);
+			path = SportzStarTests;
+			sourceTree = "<group>";
+		};
+		6855E0D52692B6B5003F65B5 /* SportzStarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6855E0D62692B6B5003F65B5 /* SportzStarUITests.swift */,
+				6855E0D82692B6B5003F65B5 /* Info.plist */,
+			);
+			path = SportzStarUITests;
+			sourceTree = "<group>";
+		};
+		6855E1EC2693381B003F65B5 /* UtilityClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UtilityClasses;
+			sourceTree = "<group>";
+		};
+		6855E1ED2693381B003F65B5 /* WebServiceHelper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebServiceHelper;
+			sourceTree = "<group>";
+		};
+		6855E1EE2693381B003F65B5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				6855E0B12692B6B2003F65B5 /* AppDelegate.swift */,
+				6855E0B32692B6B2003F65B5 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		6855E1F12693381B003F65B5 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		6855E1F22693381C003F65B5 /* ExternalClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExternalClasses;
+			sourceTree = "<group>";
+		};
+		6855E1F32693381C003F65B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6855E1F42693381C003F65B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				683E518C26947FBC00C7FCB6 /* SignUp */,
+				6855E22E26936A74003F65B5 /* ResetPassword */,
+				6855E2272693420B003F65B5 /* Login */,
+				6855E20F26933BB4003F65B5 /* Pages */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6855E1FB2693381C003F65B5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		6855E20F26933BB4003F65B5 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				6855E21026933BCB003F65B5 /* Pages.swift */,
+				6855E21826933CB6003F65B5 /* Page1.swift */,
+				6855E21D26933CC3003F65B5 /* Page2.swift */,
+				6855E22226933CD1003F65B5 /* Page3.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		6855E2272693420B003F65B5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6855E2282693420B003F65B5 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6855E2282693420B003F65B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6855E2292693421B003F65B5 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6855E22E26936A74003F65B5 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				6855E22F26936A74003F65B5 /* View */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		6855E22F26936A74003F65B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6855E23026936A87003F65B5 /* ResetPasswordVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6855E0AD2692B6B2003F65B5 /* SportzStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6855E0DB2692B6B5003F65B5 /* Build configuration list for PBXNativeTarget "SportzStar" */;
+			buildPhases = (
+				6855E0AA2692B6B2003F65B5 /* Sources */,
+				6855E0AB2692B6B2003F65B5 /* Frameworks */,
+				6855E0AC2692B6B2003F65B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportzStar;
+			productName = SportzStar;
+			productReference = 6855E0AE2692B6B2003F65B5 /* SportzStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6855E0C62692B6B5003F65B5 /* SportzStarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6855E0DE2692B6B5003F65B5 /* Build configuration list for PBXNativeTarget "SportzStarTests" */;
+			buildPhases = (
+				6855E0C32692B6B5003F65B5 /* Sources */,
+				6855E0C42692B6B5003F65B5 /* Frameworks */,
+				6855E0C52692B6B5003F65B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6855E0C92692B6B5003F65B5 /* PBXTargetDependency */,
+			);
+			name = SportzStarTests;
+			productName = SportzStarTests;
+			productReference = 6855E0C72692B6B5003F65B5 /* SportzStarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6855E0D12692B6B5003F65B5 /* SportzStarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6855E0E12692B6B5003F65B5 /* Build configuration list for PBXNativeTarget "SportzStarUITests" */;
+			buildPhases = (
+				6855E0CE2692B6B5003F65B5 /* Sources */,
+				6855E0CF2692B6B5003F65B5 /* Frameworks */,
+				6855E0D02692B6B5003F65B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6855E0D42692B6B5003F65B5 /* PBXTargetDependency */,
+			);
+			name = SportzStarUITests;
+			productName = SportzStarUITests;
+			productReference = 6855E0D22692B6B5003F65B5 /* SportzStarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6855E0A62692B6B2003F65B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					6855E0AD2692B6B2003F65B5 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					6855E0C62692B6B5003F65B5 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 6855E0AD2692B6B2003F65B5;
+					};
+					6855E0D12692B6B5003F65B5 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 6855E0AD2692B6B2003F65B5;
+					};
+				};
+			};
+			buildConfigurationList = 6855E0A92692B6B2003F65B5 /* Build configuration list for PBXProject "SportzStar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6855E0A52692B6B2003F65B5;
+			productRefGroup = 6855E0AF2692B6B2003F65B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6855E0AD2692B6B2003F65B5 /* SportzStar */,
+				6855E0C62692B6B5003F65B5 /* SportzStarTests */,
+				6855E0D12692B6B5003F65B5 /* SportzStarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6855E0AC2692B6B2003F65B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6855E0C12692B6B5003F65B5 /* LaunchScreen.storyboard in Resources */,
+				6855E0BE2692B6B5003F65B5 /* Assets.xcassets in Resources */,
+				6855E0B92692B6B2003F65B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6855E0C52692B6B5003F65B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6855E0D02692B6B5003F65B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6855E0AA2692B6B2003F65B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6855E0B62692B6B2003F65B5 /* ViewController.swift in Sources */,
+				6855E23126936A87003F65B5 /* ResetPasswordVC.swift in Sources */,
+				6855E0B22692B6B2003F65B5 /* AppDelegate.swift in Sources */,
+				683E518F26947FD800C7FCB6 /* SignUpVC.swift in Sources */,
+				6855E21926933CB6003F65B5 /* Page1.swift in Sources */,
+				6855E21126933BCB003F65B5 /* Pages.swift in Sources */,
+				6855E0B42692B6B2003F65B5 /* SceneDelegate.swift in Sources */,
+				6855E22A2693421B003F65B5 /* LoginVC.swift in Sources */,
+				6855E21E26933CC3003F65B5 /* Page2.swift in Sources */,
+				6855E22326933CD1003F65B5 /* Page3.swift in Sources */,
+				6855E0BC2692B6B2003F65B5 /* SportzStar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6855E0C32692B6B5003F65B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6855E0CC2692B6B5003F65B5 /* SportzStarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6855E0CE2692B6B5003F65B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6855E0D72692B6B5003F65B5 /* SportzStarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6855E0C92692B6B5003F65B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6855E0AD2692B6B2003F65B5 /* SportzStar */;
+			targetProxy = 6855E0C82692B6B5003F65B5 /* PBXContainerItemProxy */;
+		};
+		6855E0D42692B6B5003F65B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6855E0AD2692B6B2003F65B5 /* SportzStar */;
+			targetProxy = 6855E0D32692B6B5003F65B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6855E0B72692B6B2003F65B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6855E0B82692B6B2003F65B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6855E0BF2692B6B5003F65B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6855E0C02692B6B5003F65B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6855E0D92692B6B5003F65B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6855E0DA2692B6B5003F65B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6855E0DC2692B6B5003F65B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportzStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DemoApp.SportzStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6855E0DD2692B6B5003F65B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportzStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DemoApp.SportzStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6855E0DF2692B6B5003F65B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportzStarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DemoApp.SportzStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportzStar.app/SportzStar";
+			};
+			name = Debug;
+		};
+		6855E0E02692B6B5003F65B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportzStarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DemoApp.SportzStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportzStar.app/SportzStar";
+			};
+			name = Release;
+		};
+		6855E0E22692B6B5003F65B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportzStarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DemoApp.SportzStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportzStar;
+			};
+			name = Debug;
+		};
+		6855E0E32692B6B5003F65B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SportzStarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.DemoApp.SportzStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportzStar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6855E0A92692B6B2003F65B5 /* Build configuration list for PBXProject "SportzStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6855E0D92692B6B5003F65B5 /* Debug */,
+				6855E0DA2692B6B5003F65B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6855E0DB2692B6B5003F65B5 /* Build configuration list for PBXNativeTarget "SportzStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6855E0DC2692B6B5003F65B5 /* Debug */,
+				6855E0DD2692B6B5003F65B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6855E0DE2692B6B5003F65B5 /* Build configuration list for PBXNativeTarget "SportzStarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6855E0DF2692B6B5003F65B5 /* Debug */,
+				6855E0E02692B6B5003F65B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6855E0E12692B6B5003F65B5 /* Build configuration list for PBXNativeTarget "SportzStarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6855E0E22692B6B5003F65B5 /* Debug */,
+				6855E0E32692B6B5003F65B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6855E0BA2692B6B2003F65B5 /* SportzStar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6855E0BB2692B6B2003F65B5 /* SportzStar.xcdatamodel */,
+			);
+			currentVersion = 6855E0BB2692B6B2003F65B5 /* SportzStar.xcdatamodel */;
+			path = SportzStar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6855E0A62692B6B2003F65B5 /* Project object */;
+}
